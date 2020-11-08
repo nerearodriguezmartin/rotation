@@ -1,7 +1,7 @@
 function inicio(){
 
-    if (window.DeviceOrientationEvent) {
-        window.addEventListener('deviceorientation', orientacion);
+    if (window.DeviceMotionEvent) {
+        window.addEventListener('devicemotion', orientacion);
 
       }
   }
